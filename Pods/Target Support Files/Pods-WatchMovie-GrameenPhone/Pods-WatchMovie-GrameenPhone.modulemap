@@ -1,0 +1,6 @@
+framework module Pods_WatchMovie_GrameenPhone {
+  umbrella header "Pods-WatchMovie-GrameenPhone-umbrella.h"
+
+  export *
+  module * { export * }
+}

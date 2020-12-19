@@ -1,0 +1,6 @@
+framework module Pods_WatchMovie_Telenor {
+  umbrella header "Pods-WatchMovie-Telenor-umbrella.h"
+
+  export *
+  module * { export * }
+}
