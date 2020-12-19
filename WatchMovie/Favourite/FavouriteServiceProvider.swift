@@ -21,6 +21,7 @@ class FavouriteServiceProvider {
         }
     }
     
+    
     func fetchAllFavouriteWatchItems(with completion:@escaping ([WatchItem],Error?)->()) -> Void {
         self.watchItemStorage.fetchAllFavourite { (managedObjects, error) in
             var items = [WatchItem]()

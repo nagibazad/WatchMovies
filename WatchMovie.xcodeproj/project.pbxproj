@@ -14,12 +14,10 @@
 		CEECE287258DBFD200F8058C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE24D258DBC4700F8058C /* HomeViewController.swift */; };
 		CEECE288258DBFD200F8058C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE249258DBC4700F8058C /* AppDelegate.swift */; };
 		CEECE28B258DBFD200F8058C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEECE254258DBC4C00F8058C /* LaunchScreen.storyboard */; };
-		CEECE28C258DBFD200F8058C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEECE252258DBC4C00F8058C /* Assets.xcassets */; };
 		CEECE28D258DBFD200F8058C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEECE24F258DBC4700F8058C /* Home.storyboard */; };
 		CEECE299258DBFE800F8058C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE24D258DBC4700F8058C /* HomeViewController.swift */; };
 		CEECE29A258DBFE800F8058C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE249258DBC4700F8058C /* AppDelegate.swift */; };
 		CEECE29D258DBFE800F8058C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEECE254258DBC4C00F8058C /* LaunchScreen.storyboard */; };
-		CEECE29E258DBFE800F8058C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEECE252258DBC4C00F8058C /* Assets.xcassets */; };
 		CEECE29F258DBFE800F8058C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEECE24F258DBC4700F8058C /* Home.storyboard */; };
 		CEECE2C2258DC27300F8058C /* UIStoryboardExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE2C0258DC27300F8058C /* UIStoryboardExt.swift */; };
 		CEECE2C3258DC27300F8058C /* UIStoryboardExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE2C0258DC27300F8058C /* UIStoryboardExt.swift */; };
@@ -99,6 +97,10 @@
 		CEECE3FC258E2CBC00F8058C /* Favourite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEECE3FA258E2CBB00F8058C /* Favourite.storyboard */; };
 		CEECE402258E2DFB00F8058C /* FavouriteServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE401258E2DFB00F8058C /* FavouriteServiceProvider.swift */; };
 		CEECE403258E2DFB00F8058C /* FavouriteServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECE401258E2DFB00F8058C /* FavouriteServiceProvider.swift */; };
+		CEECE438258E3EB300F8058C /* Telenor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEECE437258E3EB300F8058C /* Telenor.xcassets */; };
+		CEECE43E258E3EF700F8058C /* GrameenPhone.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEECE43D258E3EF700F8058C /* GrameenPhone.xcassets */; };
+		CEECE447258E3F7C00F8058C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEECE252258DBC4C00F8058C /* Assets.xcassets */; };
+		CEECE448258E3F7C00F8058C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEECE252258DBC4C00F8058C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +164,8 @@
 		CEECE3EF258E2C5B00F8058C /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		CEECE3FA258E2CBB00F8058C /* Favourite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favourite.storyboard; sourceTree = "<group>"; };
 		CEECE401258E2DFB00F8058C /* FavouriteServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteServiceProvider.swift; sourceTree = "<group>"; };
+		CEECE437258E3EB300F8058C /* Telenor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Telenor.xcassets; sourceTree = "<group>"; };
+		CEECE43D258E3EF700F8058C /* GrameenPhone.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GrameenPhone.xcassets; sourceTree = "<group>"; };
 		EC7BA7C47A243FE7BCE79E01 /* Pods_WatchMovie_GrameenPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchMovie_GrameenPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -258,6 +262,8 @@
 				CEECE252258DBC4C00F8058C /* Assets.xcassets */,
 				CEECE254258DBC4C00F8058C /* LaunchScreen.storyboard */,
 				CEECE257258DBC4C00F8058C /* Info.plist */,
+				CEECE437258E3EB300F8058C /* Telenor.xcassets */,
+				CEECE43D258E3EF700F8058C /* GrameenPhone.xcassets */,
 			);
 			path = WatchMovie;
 			sourceTree = "<group>";
@@ -572,11 +578,12 @@
 				CEECE3FB258E2CBC00F8058C /* Favourite.storyboard in Resources */,
 				CEECE381258DFA1E00F8058C /* WatchItemCollectionViewCell.xib in Resources */,
 				CEECE28B258DBFD200F8058C /* LaunchScreen.storyboard in Resources */,
+				CEECE447258E3F7C00F8058C /* Assets.xcassets in Resources */,
 				CEECE377258DF8C000F8058C /* HorizontalContentView.xib in Resources */,
-				CEECE28C258DBFD200F8058C /* Assets.xcassets in Resources */,
 				CEECE39E258E02C900F8058C /* PopulerWatchItemsTableViewCell.xib in Resources */,
 				CEECE28D258DBFD200F8058C /* Home.storyboard in Resources */,
 				CEECE3AF258E0BCE00F8058C /* Details.storyboard in Resources */,
+				CEECE438258E3EB300F8058C /* Telenor.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,10 +593,11 @@
 			files = (
 				CEECE35A258DEB5E00F8058C /* WatchItemTableViewCell.xib in Resources */,
 				CEECE3FC258E2CBC00F8058C /* Favourite.storyboard in Resources */,
+				CEECE43E258E3EF700F8058C /* GrameenPhone.xcassets in Resources */,
 				CEECE382258DFA1E00F8058C /* WatchItemCollectionViewCell.xib in Resources */,
+				CEECE448258E3F7C00F8058C /* Assets.xcassets in Resources */,
 				CEECE29D258DBFE800F8058C /* LaunchScreen.storyboard in Resources */,
 				CEECE378258DF8C000F8058C /* HorizontalContentView.xib in Resources */,
-				CEECE29E258DBFE800F8058C /* Assets.xcassets in Resources */,
 				CEECE39F258E02C900F8058C /* PopulerWatchItemsTableViewCell.xib in Resources */,
 				CEECE29F258DBFE800F8058C /* Home.storyboard in Resources */,
 				CEECE3B0258E0BCE00F8058C /* Details.storyboard in Resources */,
